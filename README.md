@@ -1,5 +1,9 @@
 # Healthcare-Functionality-Project--Xgboosting
 
+![output Photo](output.png "Nigerian Functionality Map")
+
+## Author: Lilian Ngonadi
+
 ## :memo: Description
 
 - This project addresses a classification machine learning challenge focused on utilizing the GRID3 NGA Health Facilities dataset. The objective is to categorize health facilities across Nigeria based on operational status, utilizing the **XGBOOST algorithm** to enhance prediction accuracy.
@@ -24,4 +28,12 @@ The dataset train.csv is employed for training a model to classify health facili
 
 - This dataset provides a comprehensive view of the health facilities' geographical distribution and operational characteristics, facilitating targeted interventions and resource allocation.
 
+## Exploratory Data Analysis (EDA)
+* To understand the dataset an exploratory data analysis was carried out to visualize the various features of [GRID3 NGA Health Facilities dataset:](https://data.grid3.org/datasets/1b358b47e41244cbaaccb640d9a4bfc9_0/about)
+
+### Visualize Numerical Feature Distribution
+
+* The dataset is highly imbalanced, oversampling will be needed to create synthetic data to balance the clases.
+
+* Implement Supervised Learning Classifiers. Five classifiers were implemented and the best performing had its hyperparameters tuned.  Random Forest was the best performing and the others were Logistic Regression, Logistic Regression with SMOTE oversampling, Decision Tree with SMOTE oversampling, and XGBoost with SMOTE oversampling.
   
