@@ -30,7 +30,7 @@
 
 # Dataset
 
-The dataset train.csv is employed for training a model to classify health facilities in Nigeria based on operational status using the GRID3 NGA Health Facilities dataset. It comprises records of 245,725 health facilities, each characterized by selected attributes:
+The dataset train.csv is employed for training a model to classify health facilities in Nigeria based on operational status using the GRID3 NGA Health Facilities dataset. It comprises records of 46146 health facilities, each characterized by selected attributes:
 - **Latitude** : Geographical latitude of the facility.
 - **Longitude** : Geographical longitude of the facility.
 - **Wardname** : Name of the ward where the facility is located.
@@ -61,8 +61,12 @@ These plots highlight areas with higher and lower densities of healthcare facili
   
 ![categorical features](categoricalfeatures.png "Categorical features")
 
-### Map Visualization of Health Facilities
+## Map Visualization of Health Facilities
 The map shows the functional status of health facilities across Nigeria, with functional facilities primarily concentrated in urban areas like Lagos and Kano. Non-functional facilities are scattered throughout the country, often in less developed regions. Partially functional facilities are also widespread, indicating operational challenges. Regions like the northern states and economically vibrant southern areas exhibit a mix of all facility statuses. This visual data aids policymakers in identifying areas needing targeted healthcare infrastructure improvements.
 
 ![output Photo](output.png "Nigerian Functionality Map")
+
+## Imbalanced data
+
+
 
