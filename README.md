@@ -67,7 +67,7 @@ The map shows the functional status of health facilities across Nigeria, with fu
 ![output Photo](output.png "Nigerian Functionality Map")
 
 # The problem statement 
-In this project, I address a classification problem aimed at categorizing healthcare facilities in Nigeria based on their operational status. Utilizing the XGBoost algorithm alongside Python and Scikit-Learn, I develop a model to classify facilities into categories such as 'Functional', 'Non-Functional', and 'Partially Functional'. This approach leverages machine learning techniques to enhance decision-making processes in healthcare management and infrastructure development.
+In this project, I addressed a classification problem aimed at categorizing healthcare facilities in Nigeria based on their operational status. Utilizing the XGBoost algorithm alongside Python and Scikit-Learn, I developed a model to classify facilities into categories such as 'Functional', 'Non-Functional', and 'Partially Functional'. This approach leverages machine learning techniques to enhance decision-making processes in healthcare management and infrastructure development.
 
 # Import libraries
 
