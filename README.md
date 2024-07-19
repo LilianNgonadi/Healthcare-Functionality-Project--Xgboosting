@@ -30,7 +30,7 @@
 
 # Dataset
 
-The dataset train.csv is employed for training a model to classify health facilities in Nigeria based on operational status using the GRID3 NGA Health Facilities dataset. It comprises records of 46146 health facilities, each characterized by selected attributes:
+The dataset [GRID3 NGA Health Facilities dataset:](https://data.grid3.org/datasets/1b358b47e41244cbaaccb640d9a4bfc9_0/about)  is employed for training a model to classify health facilities in Nigeria based on operational status using the GRID3 NGA Health Facilities dataset. It comprises records of 46146 health facilities, each characterized by selected attributes:
 - **Latitude** : Geographical latitude of the facility.
 - **Longitude** : Geographical longitude of the facility.
 - **Wardname** : Name of the ward where the facility is located.
@@ -57,7 +57,7 @@ These plots highlight areas with higher and lower densities of healthcare facili
 - Urban 1 and Ifo are the most common ward and LGA names, indicating concentrated healthcare facility locations, likely due to higher population or focused healthcare investments.
 - Lagos, Katsina, and Benue have the highest facility counts, aligning with population and administrative healthcare priorities.
 - Most healthcare facilities are "Primary Health Centers," underscoring primary care's centrality in the healthcare system, with fewer General and Specialist Hospitals.
-- The healthcare sector is predominantly privately owned, suggesting a significant private sector presence, supplemented by government and community facilities.
+- The healthcare sector is predominantly state owned, suggesting a significant state sector presence, supplemented by national agency and other facilities.
   
 ![categorical features](categoricalfeatures.png "Categorical features")
 
@@ -66,7 +66,12 @@ The map shows the functional status of health facilities across Nigeria, with fu
 
 ![output Photo](output.png "Nigerian Functionality Map")
 
-## Imbalanced data
+# The problem statement 
+In this project, I address a classification problem aimed at categorizing healthcare facilities in Nigeria based on their operational status. Utilizing the XGBoost algorithm alongside Python and Scikit-Learn, I develop a model to classify facilities into categories such as 'Functional', 'Non-Functional', and 'Partially Functional'. This approach leverages machine learning techniques to enhance decision-making processes in healthcare management and infrastructure development.
+
+# Import libraries
+
+
 
 
 
